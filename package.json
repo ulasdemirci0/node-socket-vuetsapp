@@ -1,0 +1,26 @@
+{
+  "name": "socket-vuetsapp",
+  "version": "1.0.0",
+  "description": "Vuetsapp Fork Websocket",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "server",
+    "node",
+    "vuetsapp",
+    "fork",
+    "whatsapp"
+  ],
+  "author": "ULAS DEMIRCI",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2",
+    "nodaemon": "^0.0.5",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  }
+}
